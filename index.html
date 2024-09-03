@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
     <title>Wooden Furniture Store</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 
     <script>
         sendWhatsAppMessage = () => {
@@ -211,6 +213,64 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+    </section>
+
+    <section class="testimonial container mb-4">
+        <div class="text-center my-4">
+            <h2 class="fw-bold text-secondary text-uppercase d-inline-block position-relative">
+                CUSTOMER FEEDBACK
+                <span class="d-block mx-auto"
+                    style="background-color: #1fc0a0; height: 3px; width: 100px; margin-top: 5px;"></span>
+            </h2>
+        </div>
+        <div id="testimonialCarousel" class="carousel slide text-center p-4 bg-light" data-bs-ride="carousel"
+            data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex align-items-center justify-content-center flex-column flex-md-row">
+                        <img src="./testi2.png" class="rounded-circle img-fluid border border-4 mb-3 mb-md-0"
+                            alt="Profile Image" style="width: 100px; height: 100px; border-color: #1fc0a0 !important;">
+                        <div class="text-start text-center text-md-start ms-md-3">
+                            <h5 class="fw-bold text-dark">Hello World</h5>
+                            <p class="text-muted mb-1">Aenean In Vestibulum Nibh. Sed Eget Felis Nunc. Proin Et
+                                Convallis Leo, Id Luctus Odio. Sed Eget Felis In Tortor Dignissim Facilisis.</p>
+                            <p class="text-secondary mb-0">- Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex align-items-center justify-content-center flex-column flex-md-row">
+                        <img src="./testi3.png" class="rounded-circle img-fluid border border-4 mb-3 mb-md-0"
+                            alt="Profile Image" style="width: 100px; height: 100px; border-color: #1fc0a0 !important;">
+                        <div class="text-start text-center text-md-start ms-md-3">
+                            <h5 class="fw-bold text-dark">Hello World</h5>
+                            <p class="text-muted mb-1">Aenean In Vestibulum Nibh. Sed Eget Felis Nunc. Proin Et
+                                Convallis Leo, Id Luctus Odio. Sed Eget Felis In Tortor Dignissim Facilisis.</p>
+                            <p class="text-secondary mb-0">- Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex align-items-center justify-content-center flex-column flex-md-row">
+                        <img src="https://via.placeholder.com/100"
+                            class="rounded-circle img-fluid border border-4 mb-3 mb-md-0" alt="Profile Image"
+                            style="width: 100px; height: 100px; border-color: #1fc0a0 !important;">
+                        <div class="text-start text-center text-md-start ms-md-3">
+                            <h5 class="fw-bold text-dark">Hello World</h5>
+                            <p class="text-muted mb-1">Aenean In Vestibulum Nibh. Sed Eget Felis Nunc. Proin Et
+                                Convallis Leo, Id Luctus Odio. Sed Eget Felis In Tortor Dignissim Facilisis.</p>
+                            <p class="text-secondary mb-0">- Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></li>
+            </ol>
         </div>
 
     </section>

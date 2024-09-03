@@ -7,9 +7,37 @@
     transition: all 0.7s ease-in-out;
     cursor: pointer;
 }
+
 .card:hover .main-image {
     content: url('./temp.png');
     transform: scale(1.05);
+}
+
+/* Smooth transition for carousel items */
+.carousel-item {
+    transition: transform 0.5s ease !important;
+}
+
+.carousel-indicators {
+    bottom: -10px !important;
+}
+
+.carousel-indicators li::before {
+    content: '' !important;
+    /* Remove any default content */
+}
+
+.carousel-indicators li {
+    background-color: #bbb !important;
+    border-radius: 50% !important;
+    width: 12px !important;
+    height: 12px !important;
+    border: none !important;
+    display: inline-block !important;
+}
+
+.carousel-indicators .active {
+    background-color: #1fc0a0 !important;
 }
 
 
