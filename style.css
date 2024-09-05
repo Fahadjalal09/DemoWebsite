@@ -8,8 +8,8 @@
     cursor: pointer;
 }
 
-.card:hover .main-image {
-    content: url('./temp.png');
+.transform-scale {
+    transition: transform 0.5s ease !important;
     transform: scale(1.05);
 }
 
